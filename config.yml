@@ -24,7 +24,7 @@ db:
   type: postgres
 
   # PostgreSQL / MySQL / MariaDB / MS SQL Server only:
-  host: localhost
+  host: host.docker.internal
   port: 5432
   user: postgres
   pass: admin
